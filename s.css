@@ -1,0 +1,168 @@
+body {
+  background-image: url("disco.jpg");
+  background-repeat: no-repeat;      /* stop pengulangan tile/background */
+  background-position: center; /* posisi di tengah */
+  background-size: cover;   
+  width: 100%;
+  height: 100%;/* agar background sesuai layar */
+}
+
+
+
+#LOCK {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .lock-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        .lock-container h2 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .lock-container input {
+            padding: 10px;
+            font-size: 18px;
+            width: 200px;
+            text-align: center;
+            margin: 10px 0;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .lock-container input:focus {
+            outline: none;
+            border-color: #4CAF50;
+        }
+
+        .lock-container button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .lock-container button:hover {
+            background-color: #45a049;
+        }
+
+        .error-message {
+            color: red;
+            margin-top: 10px;
+            display: none;
+        }
+
+
+
+#jojo {
+  position: relative;
+  top: 100px;
+  font-size: 40px;
+  z-index: 5;
+}
+
+
+
+#kanan {
+  position: relative;
+  padding: 30px;
+ font-size: 25px;
+ left: 40px;
+ top: 105px;
+}
+
+#bawah {
+  position: relative;
+  padding: 25px;
+  font-size: 10px;
+  left: 345px;
+  top: 10px;
+}
+
+#atas {
+  position: relative;
+padding: 45px;
+font-size: 30px;
+left: 450px;
+top: 100px;
+}
+
+#kiri {
+  position: relative;
+padding: 30px;
+font-size: 25px;
+left: 185px;
+top: 125px;
+}
+
+#yomi {
+  position: relative;
+  left: -160px;
+  top: 50px;
+  width: 80px;
+  height: 80px;
+}
+
+#yomi2 {
+  left: -160px;
+  top: 50px;
+  width: 80px;
+  height: 80px;
+  z-index: 8;
+}
+
+#confetti {
+  position: relative;
+  object-fit: center;
+  width: 80%;
+  height: 80%;
+  z-index: 6;
+}
+
+h3 {
+  top: -75;
+  position: relative;
+  left: 160px;
+  z-index: 3;
+  opacity: 0.5;
+}
+
+#ciko {
+  position: relative;
+  width: 100px;
+  height: 120px;
+}
+
+#ciko:hover {
+  animation: test 0.5s infinite alternate;
+}
+
+
+
+@keyframes test {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}
