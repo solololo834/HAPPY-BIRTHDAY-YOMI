@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>HAPPY BIRTHDAY YOMI!</title>
+</head>
+
+<body style="background-image: url(disco.jpg);">
+  
+  <div id="LOCK">
+    <div class="lock-container">
+        <h2>🔒 Masukkan Kode Akses</h2>
+        <input type="password" id="codeInput" maxlength="4" placeholder="****" autofocus>
+        <br>
+        <button onclick="checkCode()">Buka</button>
+        <div id="errorMessage" class="error-message">Kode salah! Coba lagi.</div>
+    </div>
+</div>
+  
+  <button type="button" id="kanan" onclick="kanan()">→</button>
+  
+  <button type="button"  id="atas" onclick="atas()">↑</button>
+  
+  <button type="button"  id="bawah" onclick="bawah()">↓</button>
+  
+<button type="button"  id="kiri" onclick="kiri()">←</button>
+  
+  <img src="confetti.gif" alt="" id="confetti"hidden/>
+  
+  <img src="jojo.png" alt="" id="jojo" width="60px" height="60px"/>
+  <img src="yomi.png" alt="" id="yomi" onclick="con()"/>
+  
+  <img src="yomi.png" alt="" id="yomi2"  hidden />
+  
+  <img src="ciko.jpg" alt="" id="ciko" />
+  
+  <h3 id="h">MISSION:CLICK KAYOMI</h3>
+  
+  <audio src="hbd.mp3" controls id="HBDM" hidden>HBD MUSIC hidden</audio>
+
+  <script src="in.js">index.js</script>
+  
+  <link rel="stylesheet" href="s.css">
+</body>
+
+    </html>
